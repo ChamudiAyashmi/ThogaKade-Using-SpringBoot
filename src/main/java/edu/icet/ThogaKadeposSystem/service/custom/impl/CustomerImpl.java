@@ -3,11 +3,12 @@ package edu.icet.ThogaKadeposSystem.service.custom.impl;
 import edu.icet.ThogaKadeposSystem.dto.custom.Customer;
 import edu.icet.ThogaKadeposSystem.service.custom.CustomerService;
 import lombok.Builder;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-@Builder
 
+@Service
 public class CustomerImpl implements CustomerService {
 
     ArrayList<Customer> customerList;
@@ -25,5 +26,11 @@ public class CustomerImpl implements CustomerService {
     @Override
     public Customer search(String s) {
         return null;
+    }
+
+    @Override
+    public Customer add(Customer customer) {
+        customerList.add(customer);
+        return customer;
     }
 }

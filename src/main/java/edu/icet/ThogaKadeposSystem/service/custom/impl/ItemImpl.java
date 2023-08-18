@@ -15,4 +15,9 @@ public class ItemImpl implements ItemService {
     public Item search(String s) {
         return null;
     }
+
+    @Override
+    public Item add(Item item) {
+        return null;
+    }
 }
