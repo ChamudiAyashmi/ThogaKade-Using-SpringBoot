@@ -2,7 +2,6 @@ package edu.icet.ThogaKadeposSystem.service.custom.impl;
 
 import edu.icet.ThogaKadeposSystem.dto.custom.Customer;
 import edu.icet.ThogaKadeposSystem.service.custom.CustomerService;
-import lombok.Builder;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -25,7 +24,7 @@ public class CustomerImpl implements CustomerService {
 
     @Override
     public Customer search(String s) {
-        return null;
+       return null;
     }
 
     @Override

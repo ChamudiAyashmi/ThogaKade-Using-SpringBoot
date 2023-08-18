@@ -8,4 +8,5 @@ public interface CrudService <T extends SuperDTO,ID>{
     List<T> getAll();
     T search(ID id);
     T add(T t);
+    //T update(T t);
 }
