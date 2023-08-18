@@ -19,7 +19,7 @@ public class CustomerImpl implements CustomerService {
     }
     @Override
     public List<Customer> getAll() {
-        Customer.
+        return this.customerList;
     }
 
     @Override
