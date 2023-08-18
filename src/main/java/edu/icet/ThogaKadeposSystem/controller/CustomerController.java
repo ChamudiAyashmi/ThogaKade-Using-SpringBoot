@@ -11,6 +11,6 @@ import java.util.List;
 @CrossOrigin
 public class CustomerController {
     public List<Customer> getAllCustomer(){
-        return new ArrayList<>();
+        //return new ArrayList<Customer>();
     }
 }
