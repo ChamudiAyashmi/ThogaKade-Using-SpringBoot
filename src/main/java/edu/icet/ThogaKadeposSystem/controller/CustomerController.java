@@ -1,6 +1,6 @@
 package edu.icet.ThogaKadeposSystem.controller;
 
-import edu.icet.ThogaKadeposSystem.dto.Customer;
+import edu.icet.ThogaKadeposSystem.dto.custom.Customer;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RestController;
 
